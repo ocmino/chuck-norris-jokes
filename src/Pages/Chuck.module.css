@@ -1,0 +1,26 @@
+.joke {
+  animation: fadeIn 1s;
+  text-align: center;
+
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  text-align: center;
+  animation: fadeIn 1s;
+
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
